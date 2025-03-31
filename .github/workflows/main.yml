@@ -83,7 +83,7 @@ jobs:
 
 
   Deploy:
-    needs: BUILD_AND_PUBLIH
+    needs: BUILD_AND_PUBLISH
     runs-on: ubuntu-latest
     steps:
       - name: Code checkout
